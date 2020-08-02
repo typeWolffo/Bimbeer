@@ -1,0 +1,69 @@
+.home {
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+
+
+    .profileSwiper {
+        border: 1px solid red;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+
+        .swipeTarget {
+            display: flex;
+            height: 500px;
+            width: 100%;
+            position: relative;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 300px;
+                width: 100%;
+            }
+
+            .prefAlcohol,
+            .interests,
+            .userName {
+                position: absolute;
+                height: 30px;
+                width: 100%;
+                border: 1px solid blue;
+            }
+
+            .userName {
+                bottom: 60px;
+                left: 0;
+            }
+
+            .interests {
+                bottom: 0;
+                left: 0;
+            }
+
+            .prefAlcohol {
+                bottom: 30px;
+                left: 0;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            button {
+                border: 1px solid #d9d9d9;
+                border-radius: 100%;
+                height: 60px;
+                width: 60px;
+                font-size: 30px;
+            }
+        }
+    }
+}

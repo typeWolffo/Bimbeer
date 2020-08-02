@@ -63,7 +63,6 @@
         </style>
     </head>
     <body>
-        <div id="test"></div>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
